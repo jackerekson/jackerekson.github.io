@@ -4,10 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jack's Portfolio Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;1,200&display=swap" rel="stylesheet">
+    <title>Jack's Portfolio</title>
 </head>
 <body>
-    <h1>Jack Erekson</h1>
-    
+	<content>
+        <div id="top-area">
+            <div class="container">
+                <div><h1>Good Day!</h1></div>
+               <div><h1>I'm Jack Erekson</h1></div>
+               <div><h3>One of the many things I enjoy is being a Full Stack Developer</h3></div>
+            </div>
+        </div>
+        <section class='about_me'>
+            <div id="about">
+                <div>
+                    <h3>A little bit about me</h3>
+                    <p>I started my first career when I was 19 years old. I started working for a Correction Facility because I wanted to pursue a Career in Law Enforcement. After about 3 and a half years I applied for a career with the White Pine County Sheriff's Office as my goal was to become a Patrol Deputy. My prior experience allowed for me to be offered a position as a Patrol Deputy instead of starting as a Jail Deputy as most Patrol Deputies do. I was more than happy as that is where I wanted to be. <br><br> I was 23 years old and figured I would be spending the next 30 years helping the community that I loved. I loved almost everything about being a cop and I loved the people I worked with even more. I lived in a very Law Enforcement friendly community and I loved being able to be out with the public promoting community policing. Fast forward a few years and a few kids I found the joy and reward of being a father and husband to be greater than the reward of being a Deputy Sheriff. <br><br> I found myself being affected by the job and the things I saw and dealt with a lot more after having kids and after many months of self finding I chose to pursue a new career as a Full Stack Web Developer. I have family in the Computer Science Career and I see how much joy it brings to them and I've always enjoyed working with, playing on and figuring out how computers work so I figured why not try it! Boy am I glad I did! The time I've spent working with the great instructors and mentors at DevMountain as well as the students I've found myself and my family's spirits grow. I am proud to say I am going to be a Full Stack Web Developer and I will be proud to say that until retirement.</p>
+                </div>
+            </div>
+            <div id='me'>
+            </div>
+        </section>
+        <section class='my_skills'>
+            <div>
+                <h3>Skills</h3>
+            </div>
+            <section id='skills'>
+                <div id='box'>
+                    <img src="./skills_img/sql.png" width="240" height="110" alt="">
+                    <p>PostgresSQL</p>
+                </div>
+                <div id='box'>
+                    <img src="./skills_img/js.png" width="240" height="110" alt="">
+                    <p>JavaScript</p>
+                </div>
+                <div id='box'>
+                    <img src="./skills_img/html.png" width="240" height="110" alt="">
+                    <p>HTML</p>
+                </div>
+                <div id='box'>
+                    <img src="./skills_img/css.png" width="240" height="110" alt="">
+                    <p>CSS</p>
+                </div>
+                <div id='box'>
+                    <img src="./skills_img/node.jpg" width="240" height="110" alt="">
+                    <p>Node</p>
+                </div>
+                <div id='box'>
+                    <img src="./skills_img/logo.png" width="240" height="110" alt="">
+                    <p>Redux</p>
+                </div>
+                <div id='box'>
+                    <img src="./skills_img/react.jpg" width="240" height="110" alt="">
+                    <p>React</p>
+                </div>
+                <div id='box'>
+                    <img src="./skills_img/git.png" width="240" height="110" alt="">
+                    <p>Git</p>
+                </div>
+            </section>
+        </section>
+        <section class="my_projects">
+            <div>
+                <h3>A couple of fun little projects</h3>
+            </div>
+            <div id="projects">
+                <div id="video">
+                    <video width="320" height="240" controls>
+                        <source width="320" height="240" src="./demo_vids/connect_4_demo.mp4" type="video/mp4">
+                      </video>
+                    <p>Connect 4 is a game I created using JavaScript and HTML. This game is played with two separate people on the same device. This was a fun build as it was one of my first apps that I made and I learned a lot after spending hours coming through multiple bugs written into my code the first time around.</p>
+                    <a href="https://github.com/jackerekson/personal_project_2.0">Github Repo</a>
+                    <p>JavaScript | HTML | CSS</p>
+                </div>
+                <div id="picture">
+                    <img src="./screen_shots/tic-tac-toe-screenshot.jpg" width="340" height="210" alt="Tic-Tac-Toe-App">
+                    <p>This is a small app that I deployed. Its a game of tic-tac-toe that is played by yourself. The game itself was not my creation however I did add a few features to the app including the game accepting your name returning a different winning or losing phrase.</p>
+                    <div>
+                        <a href="https://github.com/jackerekson/qa_2_assessment">Github Repo</a>
+                        <a href="https://bookappy.herokuapp.com/">Live Site</a>
+                    </div>
+                    <p>JQuery | JavaScript | HTML | CSS</p>
+                </div>
+            </div>
+        </section>
+        <section class='contact_info'>
+            <div>
+                <p>Erekson.Jack@gmail.com</p>
+            </div>
+            <div>
+                <form action="https://www.linkedin.com/in/jackerekson32b6a5218/" target='_blank'>
+                    <button>LinkedIn</button>
+                </form>
+            </div>
+            <div>
+                <form action="https://github.com/jackerekson" target='_blank'>
+                    <button>Github</button>
+                </form>
+            </div>
+            <div>
+                <form action="https://www.linkedin.com/in/jackerekson32b6a5218/" target='_blank'>
+                    <button>Resume</button>
+                </form>
+            </div>
+        </section>
+	</content>
+	
+	
+	<script src="index.js"></script>
 </body>
 </html>

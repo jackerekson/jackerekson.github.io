@@ -1,0 +1,144 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    background-color: rgb(71, 70, 70);
+}
+
+.my_skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#box {
+    height: 20vh;
+    width: 20vw;
+}
+
+#top-area {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: black;
+    text-align: center;
+    background-image: url('./screen_shots/background.jpg');
+    background-size: 200vh;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: row;
+}
+
+#about {
+    width: 50vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#me {
+    width: 50vw;
+    height: 100vh;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: black;
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+}
+
+#video {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#picture {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: turquoise;
+}
+
+button {
+    background-color: #515f6d;
+    width: 100px;
+    height: 33px;
+    color: turquoise;
+    border: none;
+    margin: 5px;
+    font-family: Allison;
+    font-size: 25px;
+  }
+
+  button:hover {
+    background-color: #719ECE;
+    width: 100px;
+    height: 33px;
+    color: turquoise;
+    border: none;
+    margin: 5px;
+    font-family: Allison;
+    font-size: 25px;
+    box-shadow: 0 0 20px #6eacee
+  }
+
+  .contact_info {
+      height: 5vh;
+      width: 100vw;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: black;
+      align-items: center;
+  }
