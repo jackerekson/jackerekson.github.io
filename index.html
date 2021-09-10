@@ -8,10 +8,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Jack's Portfolio</title>
 </head>
 <body>
 	<content>
+    <section class='nav'>
+        <div class="topnav">
+            <div class="active">
+                <p>Full Stack Web Developer</p>
+
+            </div>
+            <div id="myLinks">
+              <a href="#about">About Me</a>
+              <a href="#skill">Skills</a>
+              <a href="#project">Project</a>
+              <a href="#contact">Contact Me</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </section>
         <div id="top-area">
             <div class="container">
                 <div><h1>Good Day!</h1></div>
@@ -29,7 +47,7 @@
             <div id='me'>
             </div>
         </section>
-        <section class='my_skills'>
+        <section class='my_skills' id='skill'>
             <div>
                 <h3>Skills</h3>
             </div>
@@ -68,7 +86,7 @@
                 </div>
             </section>
         </section>
-        <section class="my_projects">
+        <section class="my_projects" id='project'>
             <div>
                 <h3>A couple of fun little projects</h3>
             </div>
@@ -92,7 +110,7 @@
                 </div>
             </div>
         </section>
-        <section class='contact_info'>
+        <section class='contact_info' id='contact'>
             <div>
                 <p>Erekson.Jack@gmail.com</p>
             </div>
